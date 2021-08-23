@@ -10,12 +10,15 @@ class Category(models.Model):
     class Meta:
         verbose_name_plural = 'categories'
 
+    def get_absolute_url(self):
+        return reverse("store:category_list", args=[self.slug])
+
     def __str__(self):
         return self.name
 
 
 class Product(models.Model):
-    Category = models.ForeignKey(Category, related_name='product', on_delete=models.CASCADE)
+    category = models.ForeignKey(Category, related_name='product', on_delete=models.CASCADE)
     created_by = models.ForeignKey(User, on_delete=models.CASCADE, related_name='product_creator')
     title = models.CharField(max_length=20)
     company = models.CharField(max_length=20, default='admin')
