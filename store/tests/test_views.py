@@ -7,12 +7,12 @@ from django.test import Client, RequestFactory, TestCase
 from django.urls import reverse
 
 from store.models import Category, Product
-#from store.views import all_products
+from store.views import all_products
 
-#@skip("demonstrating skipping")
-#class TestSkip(TestCase):
- #   def test_skip_example(self):
-  #      pass
+# @skip("demonstrating skipping")
+# class TestSkip(TestCase):
+# def test_skip_example(self):
+# pass
 
 
 class TestViewResponses(TestCase):
@@ -44,3 +44,9 @@ class TestViewResponses(TestCase):
         """
         response = self.c.get(reverse('store:category_list', args=['ropes']))
         self.assertEqual(response.status_code, 200)
+
+    def test_homepage_html(self):
+        request = HttpRequest()
+        response = all_products(request)
+        html = response.content.decode('utf8')
+        print(html)
