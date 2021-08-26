@@ -50,3 +50,7 @@ class TestViewResponses(TestCase):
         response = all_products(request)
         html = response.content.decode('utf8')
         print(html)
+        self.assertIn('<title>Home</title>', html)
+        self.assertTrue(html.startswith('\n<!DOCTYPE html>\n'))
+        self.assertEqual(response.status_code, 200)
+
