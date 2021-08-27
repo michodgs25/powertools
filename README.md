@@ -1,6 +1,6 @@
 <h2 align="center">Power Tools Eccomerce</h2>
 <div align="center">
-<img src="" 
+<img src="https://github.com/michodgs25/tools/blob/main/store/media/images/readme.jpg" 
      target="_blank" rel="noopener" alt="Tool set">
 </div>
 
@@ -15,15 +15,11 @@ __Get the latest tools at Power__
 * [Project purpose](#Project-Purpose)
      * [UX](#UX)
 * [User-Stories](#User-Stories)
-* [Design](#Design)
-     * [Typography](#Typography)
-     * [Colours](#Colours)
      * [Icons](#Icons)
      * [Wire-Frames](#Wire-Frames)
 * [Features](#Features)
      * [Defensive-design](#Defensive-Design)
      * [Schema-Design](#Schema-Design)
-     * [Features left to be implemented](#Features-left-to-be-implemented)
      * [issues-and-bugs](#issues-and-bugs)
 * [Technologies](#Technologies)
      * [Languages](#Languages)
@@ -38,7 +34,7 @@ __Get the latest tools at Power__
 -------------
 
 # Project purpose
-To create a site that users can purchase products. 
+To create a vast eccommerce site that users can purchase power tools products. Also users can review& share products and contact the platform.
 
 ----------
 # UX
@@ -63,19 +59,13 @@ Using the five planes of UX model created by Jesse Garrett, I formed a solid fou
 
 ## User Stories
 
-### Gym members and subscribers
+### 
 
 #### Main Site Content
 
 -  As a first time user I want to be able to navigate each section of the platform with ease, because this helps me find the product I want.
 
--  As a frequent user I can view the gym fitness plans, so that I can purchase a subscription product without having to phone up or pay upon arrival.
-
--  As a user I want to purchase my favorite Merchandise online with ease, because I want to support the gym financially beyond paying a membership.
-
 - As a returning user, I would like to see view the highest rated products, as I like to know which products are most popular.
-
-- As a frequent user, I want the site to be familiar by using fitness station branding akin to the gym itself, as this reaffirms that I on the right website.
 
 -  As a returning user, I would like to view all my previous orders, so I can keep track of my purchases.
 
@@ -83,7 +73,7 @@ Using the five planes of UX model created by Jesse Garrett, I formed a solid fou
 
 #### Main site content - Purchasing products
 
--  As a returning member, I want to view all my purchases on one page, this helps me keep a log of what I have purchased and when.
+-  As a returning user, I want to view all my purchases on one page, this helps me keep a log of what I have purchased and when.
 
 -  As a new user, I want to recieve a confirmation of my purchase to ensure my payment has gone through.
 
@@ -99,11 +89,9 @@ Using the five planes of UX model created by Jesse Garrett, I formed a solid fou
 
 - As a first time buyer I would like to give constructive feedback on products.
 
-#### Contact the Gym page
+#### Contact the company
 
-- As a new member to the gym, I want to be able to check the gym opening& closing times, so I can plan my visit.
-
-- A a frequent user, I want to be to contact the gym directly, so I can ask any questions.
+- As a new user, I want to be able to contact the company with any enquiries I may have
 
 #### Shopping bag and Checkout
 
@@ -131,7 +119,7 @@ Using the five planes of UX model created by Jesse Garrett, I formed a solid fou
 -  As a frequent user I would like to be able to sign in or out of my account with ease, as this allows a smooth opening and exit from the platform and keeps my details safe.
 
 
-## Gym owner
+## Platform owner
 
 #### Updating Products
 
@@ -145,9 +133,9 @@ Using the five planes of UX model created by Jesse Garrett, I formed a solid fou
 
 #### Site control
 
-- As the gym owner, I would like my own account with specific privileges, to control the content of the site.
+- As the site owner, I would like my own account with specific privileges, to control the content of the site.
 
-- As the gym owner, I want the site to be secure, as I could lose business.
+- As the site owner, I want the site to be secure, as I could lose business.
 
 ## Developer
 
@@ -175,47 +163,11 @@ Images of the product categories on the homepage to be exact; which encourages t
 
 On the homepage the user can explore the site using the search bar on the navigation, below the search bar, are three separate products dropdown tabs aligned horizontally:
 - All products
-- workout plans
-- activewear& accessories
+- Categories
 
 Which when the user clicks each tab displays a range of product options the user can choose to filter available products. 
 
-See full article on design here __https://github.com/michodgs25/Fitness-Station/issues/1__
-
-### Typography
-
-- The main font selected for this project is **Lato**. I think this is a well designed and easy to read google font and represents the fitness station brand.
-
-*https://fonts.googleapis.com/css?family=Lato&display=swap*
-
-------
-
-### Colours
-
-<div align="center">
-<img src="https://github.com/michodgs25/Fitness-Station-360/blob/master/media/readme/platform-colors.png" 
-     target="_blank" rel="noopener" alt="Platform colors">
-</div>
-
--  Bootstrap fonts& colors are are used throughout the site:
-
-.text-success - Used for buttons to view products, secure checkout and view product reviews.
-
-.text-danger - Used as login button if use does not have an account or needs to login before completing checkout and login 'forgot password' text.
-
-.text-info - Used for review page back to shopping button(button previously text warning but blended into background) and information notification to user.
-
-.text-warning - used as product card body, contact page backgrounds.
-
-
-The purpose for implementing these bootstrap styles are two-fold:
-
-1. Mimic the traffic light system, danger being danger(stop/alert), warning(information/wait) and success(go).
-2. Practical, allows for quicker development time without compromising UX.
-
-See bootstrap documentation for full range of colors - https://getbootstrap.com/docs/4.0/utilities/colors/
-
-------
+-----------------------
 
 ### Icons
 
@@ -230,7 +182,7 @@ These wireframes were designed with Balsamiq Mockups.
   <summary>Desktop</summary>
   <br>
 <div align="center">
-<img src="https://github.com/michodgs25/Fitness-Station-360/blob/master/static/wireframes/desktop/desktop.png" target="_blank" rel=""/>
+<img src="" target="_blank" rel=""/>
 </div>
   </details>
 
@@ -238,7 +190,7 @@ These wireframes were designed with Balsamiq Mockups.
    <summary>Tablet</summary>
   <br>
 <div align="center">
-<img src="https://github.com/michodgs25/Fitness-Station-360/blob/master/static/wireframes/tablet/tablet.png" target="_blank" rel=""/>
+<img src="" target="_blank" rel=""/>
 </div>
  </details>
  
@@ -246,7 +198,7 @@ These wireframes were designed with Balsamiq Mockups.
    <summary>Mobile</summary>
   <br>
 <div align="center">
-<img src="https://github.com/michodgs25/Fitness-Station-360/blob/master/static/wireframes/mobile/mobile.png" target="_blank" rel=""/>
+<img src="" target="_blank" rel=""/>
 </div>
   </details> 
 
@@ -256,13 +208,11 @@ These wireframes were designed with Balsamiq Mockups.
 
 ### Homepage feature
 
-* *The homepage consists of navigation bar(or mobile if using mobile devices), see navigation feature for details in navigation feature.*
+* *The homepage consists of navigation bar(or mobile if using mobile devices)*
 
-* *Below the main navigation, is a jumbotron which displays the gym title and motto.*
+* *Below navigation is a title& signup or login button depending on user.*
 
-* *Directly after the jumbtron are three cards(displayed horizontally on desktop and vertically on mobile) displaying the three product categories - Activewear, accessories and workout plans. The user can choose a card and is transported to that category products page.*
-
-* *Immediately below the products category cards is a contact us jumbotron, has a description and the button transports user to contact page.*
+* *Display a collection of new product added.*
 
 * *At the foot of the page is the platform footer which displays all products and contact page in bootstrap cards format.*
    
@@ -270,7 +220,7 @@ These wireframes were designed with Balsamiq Mockups.
 
 ### Products page and Product review features
 
-* *Again at top of the products page is the navigation bar, see all details at navigation feature.*
+* *Again at top of the products page is the navigation bar*
 
 * *Below the page title to far right, is a sort products filter, which drops down and the user can toggle products from high-low, A-B, rating& price vice versa.*
 
@@ -290,7 +240,6 @@ These wireframes were designed with Balsamiq Mockups.
 
 * *The user must input a name and a message to be able to submit the review.*
 
-* *Once the review is submited the user can view it underneath the create review form on the same page.*
 --------
 
 ### Bag page feature
@@ -320,7 +269,7 @@ These wireframes were designed with Balsamiq Mockups.
    
 ### Checkout and Checkout Success
 
-* *Checkout page is only available if user has an account with the platform.*
+* *The user can checkout as guest or can sign up. Reccomend user should have an account as smoother checkout experience in future, as details are saved.*
 
 * *Checkout page is divided into two primary sections, left hand side is the checkout form, which the user is required to input personal and billing/shipping details. The right hand side of the page hold the order summary, number of items, product names, size if applicable(otherwise n/a), subtotal, then below delivery cost if item subtotal does not pass free delivery threshold($50) delivery costing $3, and grand total of the bag.*
 
@@ -363,22 +312,19 @@ Order Total: *30.00*, Delivery: *3.00* Grand Total: *33.00*
 
 * *Is displayed on every single page of the platform, allowing the user to navigate with ease.*
 
-* *Bar holds the fitness station logo(far left), search bar and product dropdown tabs(center), explore dropdown tab and bag.*
+* *Bar holds the Power tools logo(far left), search bar(far left) and product dropdown tabs(center), explore dropdown tab and bag.*
 
 * *The search bar allows the user to search all products on the platform.*
 
 * *The products dropdown tabs, aligned horizontally:*
-- All products: user can filter by price, rating, category and view all products
-- workout plans: user can view all workout plans
-- activewear& accessories: User can filter by mens activewear only, womens activewear only, accessories only, all activewear.
-Which when the user clicks each tab displays a range of product options the user can choose to filter available products. 
+- All products: user can filter by price, rating, category and view all products 
 
 - *Bag icon, is white when empty, orange when holding items and displays bag total, user can view bag when icon is clicked.* 
 *Notifications appear from the bag icon, displaying dropdown box messages, for example: success message when user adds a product to the bag, the notification displays a minified bag page view within the confines of the message box with all the bag details, and has a secure checkout button.*
 
 * *The mobile nav contains four icons, from left to right:*
 
-- burger icon dropdown: contains three tabs, which functions the same as main navigation dropdown tabs *all products, workout plans, activewear& accessories.*
+- burger icon dropdown: contains three tabs, which functions the same as main navigation dropdown tabs*
 - search icon: search bar dropdowns and user can search products.
 - Bag icon, functions the same as the main navigation bag.
 
@@ -388,15 +334,7 @@ Which when the user clicks each tab displays a range of product options the user
 
 ## Footer feature
 
-* *Footer is displayed at the foot of each page on the platform, the footer consists of four bootstrap cards displayed horizonally on a wide bootstrap card:*
-- Activewear, takes user to all activewear page.
-- Accessories, takes user to all accessories page.
-- workout plans, transports user to respective page.
-- contact us page, takes user to contact page.
-
-* *User accesses each page by clicking the button on the card below the icon& name.*
-
-* *Below horizontal card is the gym contact number far left.*
+*Footer feature contains all the essential information*
 
 -----------    
 
@@ -404,23 +342,9 @@ Which when the user clicks each tab displays a range of product options the user
 
 * *A Login& registration feature is implemented for this platform, the purpose of having this feature is to protect users and the platform.* 
 
-* *Users that signup to the platform will be able to purchase products and leave a review.*
-
-* *Users will need an account to leave a review, this will decrease the misuse of product reviews.*
-
-* *Users will need an account to purchase items, this allows for greater data protection and user can view order and other past orders(if applicable) in profile(created when user makes an account).*
+* *Users that signup to the platform will be able to contact the site and leave a review.*
 
 ---------
-   
-## Features left to be implemented
-
-* *A messages store feature, like the order the feature, when user sends a message to the gym, the message is saved to the profile and the user can view the status of each message i.e. "Unread", "Read", "Responded".*
-
-* *Add more products to the collection.*
-
-* *Add a google maps feature for the gym.*
-
------
 
 
 ### Issues and bugs
@@ -472,16 +396,10 @@ The product category linking to the category field in the products section, the 
 Checkout: This section takes in the user personal, billing and card details. User does have the option save the billing details near to their profile. Stripe is the cornerstone of processing secure payments for products.
 
 5. 
-Contact: This section is non-relational to the rest of the database, and it holds details of the blog posts including the blog title, author, status, image, image_url and the post itself. The blog can only be added by a Superuser/Authenticated user.
+Contact: This section is non-relational to the rest of the database.
 
 6.
 Review post: If a user is signed into their account and they wish to leave a review on a particular product, they can do so by clicking the review button on the desired product card in the products page, however this section is also non-relational to the rest of the database, this allows for creative freedom and allows users to retain anonymity. The review post models also require a name, review text amd date it was created on.
-
-<h2 align="center">Database Schema</h2>
-<div align="center">
-<img src="https://github.com/michodgs25/Fitness-Station-360/blob/master/media/readme/data-base-mockup.png" 
-     target="_blank" rel="noopener" alt="Database mockup image">
-</div>
 
 
 --------
@@ -542,9 +460,10 @@ These technologies helped create, shape and test my code
 
 Summary: *During the development of this project, I experience some minor issues, exhaustively testing the functionality of each part of the platform and managed to solve most of the problems that arose before writing this document.*
 
-*I received help from my family& friends by using the platform features and providing me with valuable feedback such as, ."*
+*I received help from my family& friends by using the platform features and providing me with valuable feedback*
 
-__See testing documentation here: https://github.com/michodgs25/Sprint/blob/master/test.md__
+
+*To test my django/python code I used PEP8 documentation, coverage to pinpoint code that needed testing and *
 
 ## Version Control
 This sites version control is through github linked to the heroku app, using gitpod IDE, once completed a piece of work, I would type into the terminal:
@@ -574,11 +493,6 @@ Requirements may be different for other sevices, for this project I used Git.
  
  type into your terminal: git checkout -b *new-branch-name* 
  
- *Warning* -  
- my review branch for this project is called new_branch, due to the first time I have implemented branches. 
- My contact page branch is aptly named: contact_branch, I advise all developers to provide a branch name that represents the purpose of the branch, this keeps things clear for
- other developers who may view your project. 
- 
 ------
   
 
@@ -597,7 +511,7 @@ An account with AWS(Amazon web services) - https://aws.amazon.com/console/
 
 I personally used github on my local machine to develop the site using Python 3.7.3 and deployed to Heroku via Github.
 
-1. To download or clone the site to your local machine you will need to go to my repo [here.](https://github.com/michodgs25/fitness-station-360) and see deployment steps in https://help.github.com/en/articles/cloning-a-repository
+1. To download or clone the site to your local machine you will need to go to my repo [here.]() and see deployment steps in https://help.github.com/en/articles/cloning-a-repository
 
 2. Before you download or clone the site you will need to ensure you have Python 3.7 installed.
 
@@ -624,4 +538,6 @@ See full deployment process here: *https://github.com/michodgs25/Fitness-Station
 ## External Media 
 All images were take from Google images advanced search with filter - __"free to use or share"__
 
-* Code adapted from Very Academy - 
+* Code adapted from Very Academy: 
+* Youtube playlist: https://www.youtube.com/watch?v=UqSJCVePEWU&list=PLOLrQ9Pn6caxY4Q1U9RjO1bulQp5NDYS_&index=1
+* Github: https://github.com/veryacademy/django-ecommerce-project
