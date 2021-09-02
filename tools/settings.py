@@ -5,8 +5,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
-if os.path.exists("env.py"):
-    import env
+# if os.path.exists("env.py"):
+# import env
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
