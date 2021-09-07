@@ -14,3 +14,11 @@ class Cart():
         if 'skey' not in request.session:
             cart = self.session['skey'] = {}
         self.cart = cart
+
+    def add(self, product):
+        """
+        Adding and updating the users cart session data
+        """
+        product_id = product.id
+
+        if product_id not in self.cart
