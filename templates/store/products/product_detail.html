@@ -51,6 +51,7 @@
           url: '{% url "cart:cart_add" %}',
           data: {
              productid: $('#add-button').val(),
+             productqty: $('#select option:selected').text(),
              csrfmiddlewaretoken: '{{ csrf_token }}',
              action: 'post'
           },
