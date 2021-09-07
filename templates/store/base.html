@@ -40,7 +40,7 @@
                   <!--Shopping cart, display cart quantity-->
                   <a type="button" role="button" href="{% url 'cart:cart_summary' %}"
                      class="btn btn-outline-secondary">
-
+                     <div id="cart_qty" class="d-inline-flex">1</div>
                      {% with total_qty=cart|length %}
                          <div id="cart-qty" class="d-inline-flex">
                              {% if total_qty > 0 %}
