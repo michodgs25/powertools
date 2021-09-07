@@ -1,6 +1,5 @@
 
 
-
 class Cart():
     """
     A base Cart class,
@@ -13,5 +12,5 @@ class Cart():
         self.session = request.session
         cart = self.session.get('skey')
         if 'skey' not in request.session:
-            cart = self.session['skey'] = {'number': 123455}
+            cart = self.session['skey'] = {}
         self.cart = cart
