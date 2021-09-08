@@ -20,8 +20,13 @@ class Cart():
         Adding and updating the users cart session data
         """
         product_id = product.id
-
         if product_id not in self.cart:
             self.cart[product_id] = {'price': str(product.price), 'qty': int(qty)}
 
         self.session.modified = True
+
+    def __len__(self):
+        """
+        Get the cart data and count the qty of items
+        """
+        return sum(item['qty'] for item in self.cart.values())
