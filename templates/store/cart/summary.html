@@ -7,8 +7,10 @@
 <main class="pt-5">
   <div class="container">
     <h1 class="h5">Shopping cart</h1>
+    
     {% for item in cart %}
     {% with product=item.product %}
+    
     <div data-index="{{product.id}}" class="row mb-4 border product-item">
     <!--get product url from views-->
       <div class="col-md-3 col-lg-2 order-md-first bg-light">
@@ -19,6 +21,7 @@
           <h1 class="h5 pt-2">{{ product.title }}</h1>
         </a>
         <div class="border">
+        
         <!--Display product information to the user-->
           <div class="col border-bottom">
             <div class="row p-3">
@@ -29,6 +32,7 @@
           <div class="col">
             <div class="row p-3">
               <div class="col-12">
+              
               <!--User can update product quantity-->
                 <label for="select">Qty</label>
                 <select id="select{{product.id}}">
@@ -40,6 +44,7 @@
                   <option value="">3</option>
                   <option value="">4</option>
                 </select>
+                
                 <!--User can update the product or remove it entirely-->
                 <button type="button" id="update-button" data-index="{{product.id}}"
                   class="btn btn-outline-secondary btn-sm update-button">
@@ -57,6 +62,7 @@
     </div>
     {% endwith %}
     {% endfor %}
+    
     <!--Display cart total to user-->
     <div class="col-12 text-end">
       <div class="h6 fw-bold">Sub Total: £<div id="subtotal" class="d-inline-flex">{{cart.get_total_price}}</div></div>

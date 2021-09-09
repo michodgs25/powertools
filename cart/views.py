@@ -1,10 +1,14 @@
+from django.http import JsonResponse
 from django.shortcuts import get_object_or_404, render
+
+from store.models import Product
 
 from .cart import Cart
 
 
 def cart_summary(request):
-    return render(request, 'store/cart/summary.html')
+    cart = Cart(request)
+    return render(request, 'store/cart/summary.html', {'cart': cart})
 
 
 def cart_add(request):
@@ -14,6 +18,7 @@ def cart_add(request):
         product_qty = int(request.POST.get('productqty'))
         product = get_object_or_404(Product, id=product_id)
         cart.add(product=product, qty=product_qty)
-        response = JsonResponse({'qty': product_qty})
 
+        cartqty = cart.__len__()
+        response = JsonResponse({'qty': cartqty})
         return response
